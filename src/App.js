@@ -11,7 +11,15 @@ function App() {
     <Navbar />
       <Routes >
         <Route path='/contractor' element={<Contractor />} />
-      </Routes>
+        <Route path='/contractor/upcoming-projects' element={<Contractor />} />
+        <Route path='/contractor/past-bids' element={<Contractor />} />
+        <Route path='/contractor/work-update' element={<Contractor />} />
+        <Route path='/contractor/payment-progress' element={<Contractor />} />
+        <Route path='/contractor/work-order' element={<Contractor />} />
+        <Route path='/contractor/upload-invite' element={<Contractor />} />
+        <Route path='/contractor/essage' element={<Contractor />} />
+        </Routes>
+
     </>
   );
 }
